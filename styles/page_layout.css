@@ -1,0 +1,150 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 Sep, 2015, 2:18:23 PM
+    Author     : Krunal
+*/
+
+html
+{
+    height: 100%;
+}
+
+body
+{
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+}
+
+header {
+    background: url(../resources/blue_header.png);
+    color:white;
+    height: 150px;
+    top:0px;
+    min-height: 25%;
+    background-size: 100% 100%;
+    
+}
+
+img.logo
+{
+    /*min-width:30%;
+    height: 50%;
+    margin: 25px;
+    position: relative;*/
+    margin: 25px 0px 20px 15px;
+    max-width: 30%; 
+    max-height: auto;
+    min-width: 300px;
+    min-height: auto;
+    
+   
+}
+
+nav {
+    line-height:30px;
+    background: url("../resources/blue_nav.png");
+    height:auto;
+    min-height: 400px;
+    width:150px;
+    float:left;
+    padding:5px;
+    margin: 20px 30px 30px 10px;
+    border-radius: 20px;
+    color: white;
+    
+}
+
+#left_nav nav ul
+{
+    list-style-type: none;
+}
+nav ul
+{
+    padding-left: 0px;
+}
+nav ul li
+{
+   padding: 5px 20px 5px 5px;
+   text-align: right;
+   width: 120px;
+   border-bottom: 1px dotted white;
+}
+
+
+#main_section {
+    height: auto;
+    min-height: 65%;
+    
+}
+
+.menu_section
+{
+    float: right;
+    margin: 5px 25px 0 10px;
+    right: 0px;
+    top: 5px;
+    max-width: 30%;
+    min-width: 525px;
+    position: absolute;
+    
+    
+}
+.menu_section ul
+{
+    float: right;        
+}
+
+.menu_section li
+{
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+
+
+
+
+
+footer {
+    background: url(../resources/blue_footer.png);
+    background-position: top right;
+    color:white;
+    clear:both;
+    text-align:center;
+    top:0px;
+    min-height: 10%;
+    height: 75px;
+    background-size: 100% 100%;
+    bottom: 0;
+}
+
+.footer_wrapper {
+    padding: 25px 30px 0px 0px;
+}
+
+.footer_text
+{
+    text-align: right;  
+    display: block;
+    
+}
+.footer_text_left
+{
+    float: left;
+    padding: 15px;
+    
+}
+
+.footer_logo
+{
+    width:30px;
+    height: 30px;
+}

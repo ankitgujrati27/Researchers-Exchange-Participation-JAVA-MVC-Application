@@ -1,0 +1,156 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 Sep, 2015, 5:41:54 AM
+    Author     : Krunal
+*/
+
+.align_mid
+{
+    margin: 0px auto;
+    width:100%;
+    text-align: center;
+}
+
+table.center
+{
+    margin: 0px auto;
+    padding: 5px;
+    text-align: center;
+}
+
+table.left
+{
+    text-align: center;
+}
+
+div.par_table, div.quest_table
+{
+    padding: 20px 50px 20px 10px;
+}
+
+.study_table table,.study_table th,.study_table td, .par table,.par th,.par td
+{
+    border: 2px solid whitesmoke;
+    border-collapse: collapse;
+    
+}
+
+.study_table th, .par_table th
+{
+    background: rgb(24,35,112);
+    color:white;
+}
+
+.study_table th, .study_table td
+{
+    padding: 5px;
+}
+
+.par_table th, .par_table td
+{
+    padding: 5px;
+}
+
+
+.study_table tr:nth-child(odd) , .par_table tr:nth-child(odd)
+{
+    background: rgb(189,196,241);
+}
+.study_table tr:nth-child(even), .par_table tr:nth-child(even)
+{
+    background: rgb(238,239,251);
+}
+    
+.title_col_pad
+{
+    margin-left: 5px;
+    background-color: rgb(24,35,112);
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    font-size: 18px;
+}
+
+div.title_col_pad
+{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+.top_pad_5{padding-top: 5px;}
+.top_pad_10{padding-top: 10px;}
+.top_pad_25{padding-top: 25px;}
+.top_pad_50{padding-top: 50px;}
+.top_pad_100{padding-top: 100px;}
+.top_pad_200{padding-top: 200px;}
+.top_pad_300{padding-top: 300px;}
+
+.bottom_pad_5{padding-bottom: 5px;}
+.bottom_pad_10{padding-bottom: 10px;}
+.bottom_pad_25{padding-bottom: 25px;}
+.bottom_pad_50{padding-bottom: 50px;}
+.bottom_pad_100{padding-bottom: 100px;}
+.bottom_pad_200{padding-bottom: 200px;}
+.bottom_pad_300{padding-bottom: 300px;}
+
+.left_pad_5{padding-left: 5px;}
+.left_pad_10{padding-left: 10px;}
+.left_pad_25{padding-left: 25px;}
+.left_pad_50{padding-left: 50px;}
+.left_pad_100{padding-left: 100px;}
+.left_pad_200{padding-left: 200px;}
+.left_pad_300{padding-left: 300px;}
+
+
+
+.loginform_pad{
+  margin: 0px auto;
+  padding: 25px;
+  width: 395px;
+}
+
+.how_pad
+{
+  margin: 0px auto;
+  padding: 20px;
+  width: 600px;
+  text-align: justify;
+  color:rgb(24,35,112); 
+}
+
+.how_pad_1
+{
+  margin: 20px 20px;
+  padding: 20px;
+  float: left;
+  min-width:40%;
+  max-width: 60%;
+  text-align: justify;
+  color:rgb(24,35,112); 
+}
+
+.back_pad
+{
+    margin: 10px;
+}
+
+.form_head {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bolder;
+  padding: 10px !important;
+  width: 420px !important;
+  margin: 0px auto;
+  color:rgb(24,35,112); 
+}
+
+div.p_section
+{
+    padding-left:10px;
+}
